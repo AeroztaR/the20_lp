@@ -1,0 +1,59 @@
+// $breakpoints: (
+//     "phone":        360px,
+//     "phone-wide":   480px,
+//     "phablet":      560px,
+//     "tablet-small": 640px,
+//     "tablet":       768px,
+//     "tablet-wide":  1024px,
+//     "desktop":      1248px,
+//     "desktop-wide": 1440px
+// );
+
+$phone: "(min-width: 320px) and (max-width: 480px)";
+$phone-wide: "(min-width: 480px) and (max-width: 640px)";
+$tablet-small: "(min-width: 640px) and (max-width: 768px)";
+$tablet-wide: "(min-width: 768px) and (max-width: 1024px)";
+$custom: "(max-width: 576px)";
+$custom1: "(min-width: 577px)";
+
+// $phone
+@media #{$phone} {};
+
+// $custom
+@media #{$custom} {
+    // navigation
+    .navigation {display: none;}
+    // header
+    .mainpage-header {
+        padding: 22px 33px; 
+        justify-content: space-between;
+    }
+    // it-services-description
+    .it-services-description {padding: 0 14%;}
+    // footer
+    .mainpage-footer__list {justify-content: center;}
+    // hero-section
+    .hero-section-wrap {
+        background: url('../img/hero-section-mobile-bg.jpg') no-repeat 50% 50%;
+        clip-path: polygon(0 0, 100% 0, 100% 86%, 0 95.5%);
+    }
+    // scroll-arrow
+    .scroll-arrow__inner {
+        width: 60px;
+        height: 60px;
+        top: -25px;
+    }
+    .scroll-arrow__inner::after {
+        border-width: 3px 3px 0 0;
+        height: 22px;
+        left: 19px;
+        width: 22px;
+    }
+    // nav-mobile
+    .nav-mobile {}
+
+};
+
+@media #{$custom1} {
+    .hamburger {display: none;}
+}

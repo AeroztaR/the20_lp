@@ -1,0 +1,19 @@
+.footer-wrap {background-color: #4a4b4b;}
+
+.mainpage-footer {
+    padding: 47px 0 38px 0;
+    max-height: 98px;
+    margin: 0 auto;
+    margin-top: auto;
+    max-width: 1184px;
+    font: 400 13px/20px 'Lato - Regular', sans-serif;
+    color: #fff;
+    letter-spacing: 0.26px;
+    span {
+        font-family: Rubik;
+        font-weight: 300;
+    }
+}
+
+.mainpage-footer__list {display: flex;}
+.mainpage-footer__item {padding: 0 2px;}

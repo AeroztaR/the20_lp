@@ -1,0 +1,14 @@
+.hamburger {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger__button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.hamburger__button:focus {outline: none;}

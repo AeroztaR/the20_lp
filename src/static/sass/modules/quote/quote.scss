@@ -1,0 +1,39 @@
+.quote {
+    padding: 121px 0 44px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote__title {
+    font: italic 40px/49px 'Lato', sans-serif;
+    color: #4a4b4b;
+    letter-spacing: 0.8px;
+    padding-bottom: 72px;
+}
+
+.quote__signature {
+    font: 400 20px/50.01px 'Lato', sans-serif;
+    color: #e71e25;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 17px;
+    height: 16px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    border-radius: 100%;
+    outline: 0;
+    background: 0 0;
+    background-color: #4a4b4b;
+    transition: all 0.2s;
+}
+
+.slick-dots li button:before {display: none;}
+.slick-dots li.slick-active button {background-color: #e71e25;}

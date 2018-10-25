@@ -1,0 +1,20 @@
+.header-wrap {
+    box-shadow: 0px 15px 22px -7px rgba(0, 0, 0, 0.19); 
+    position: relative;
+    z-index: 20;
+} 
+
+.mainpage-header {
+    margin: 0 auto;
+    max-width: 1184px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.mainpage-header__navigation {
+    flex-grow: 1;
+    padding: 22px 0;
+}
+
+.mainpage-header__list {margin: 0 auto;}

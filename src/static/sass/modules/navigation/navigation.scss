@@ -1,0 +1,35 @@
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation__item {
+    align-self: center;
+    padding: 0 28px 0 0;
+    letter-spacing: 0.52px;
+}
+
+.navigation__link {color: #4a4b4b;}
+.navigation__link:hover {color: #ff0000;}
+
+.navigation__link--partner,
+.navigation__link--login {
+    color: #fff;
+    border-radius: 5px;
+    font: 400 12px/37px 'Lato', sans-serif;
+    letter-spacing: 0.48px;
+    padding: 8px 16px 7px 16px;
+    &:hover {
+        color: gold;
+    }
+}
+
+.navigation__link--partner {background-color: #ff0000;}
+.navigation__link--login {background-color: #4a4b4b;}
+.navigation__item--partner {padding-right: 10px;}
+.navigation__item--login {padding-right: 0;}

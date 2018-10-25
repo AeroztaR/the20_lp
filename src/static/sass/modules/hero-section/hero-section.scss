@@ -1,0 +1,35 @@
+.hero-section-wrap {
+    background: url('../img/hero-section-bg.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    max-height: 875px;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 97.3%);
+    background-blend-mode: multiply;
+}
+
+.hero-section {
+    margin: 0 auto;
+    max-width: 1184px;
+    padding: 239px 0 66px 0;
+    color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.hero-section__title {
+    text-align: center;
+    font: 700 55px/54px 'Lato', sans-serif;
+    letter-spacing: 2.2px;
+}
+
+.hero-section__description {
+    padding: 64px 0 51px 0;
+    font: 400 20px/28px 'Lato', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.hero-section__findloc-button {margin-bottom: 189px;}
